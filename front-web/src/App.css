@@ -5,3 +5,31 @@
 .app-sales-amount-container {
   padding: 40px 15px;
 }
+
+@media(min-width: 576px) {
+  .app-container {
+    padding: 40px;
+  }
+
+  .app-sales-amount-container {
+    padding: 40px;
+  }
+}
+
+@media(min-width: 992px) {
+  .app-container {
+    padding: 40px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .app-sales-amount-container {
+    width: 100%;
+    max-width: 960px;
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

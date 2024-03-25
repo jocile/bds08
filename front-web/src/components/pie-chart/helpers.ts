@@ -15,14 +15,14 @@ export const buildPieChartConfig = (labels: string[] = []) => {
         fontFamily: 'Ubuntu, sans-serif'
       }
     },
-    colors: ['#3e82f7', '#04d182', '#ffc107', '#ff6b72'],
+    colors: ['#FF7A00', '#7234F5', '#FF0000'],
     legend: {
       show: true,
       floating: false,
       position: 'bottom',
       offsetY: 10,
       labels: {
-        colors: ['#b4bed2']
+        colors: '#8D8D8D'
       },
       fontFamily: 'Ubuntu, sans-serif',
       fontSize: '16px',

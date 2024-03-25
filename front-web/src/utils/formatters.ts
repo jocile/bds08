@@ -12,7 +12,7 @@ export const formatGender = (gender: Gender) => {
   const textByGender = {
     MALE: 'Masculino',
     FEMALE: 'Feminino',
-    OTHER: 'Outros'
+    OTHER: 'Outro'
   };
 
   return textByGender[gender];
